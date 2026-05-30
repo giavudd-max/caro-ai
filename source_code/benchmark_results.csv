@@ -1,0 +1,37 @@
+test_case,test_name,depth,algorithm,radius,max_candidate_moves,move,score,nodes,cutoffs,time
+1,Early game,1,minimax,2,15,"(5, 4)",-13,16,0,0.0010210999998889747
+1,Early game,1,alphabeta,2,15,"(5, 4)",-13,16,0,0.0007107999999789172
+1,Early game,2,minimax,2,15,"(5, 4)",-661,241,0,0.011108400000011898
+1,Early game,2,alphabeta,2,15,"(5, 4)",-661,65,14,0.004790500000126485
+1,Early game,4,minimax,2,15,"(5, 4)",-1310,54241,0,3.0649870999995983
+1,Early game,4,alphabeta,2,15,"(5, 4)",-1310,1505,443,0.1474847999998019
+2,Middle game,1,minimax,2,15,"(4, 5)",798,16,0,0.0012570000008054194
+2,Middle game,1,alphabeta,2,15,"(4, 5)",798,16,0,0.001261000000340573
+2,Middle game,2,minimax,2,15,"(2, 4)",-1261,241,0,0.023748800000248593
+2,Middle game,2,alphabeta,2,15,"(2, 4)",-1261,47,14,0.008320100000673847
+2,Middle game,4,minimax,2,15,"(4, 5)",-916,53821,0,5.3222311999998055
+2,Middle game,4,alphabeta,2,15,"(4, 5)",-916,897,287,0.14528430000063963
+3,AI immediate win,1,minimax,2,15,"(3, 5)",1000000,16,0,0.0010062999999718159
+3,AI immediate win,1,alphabeta,2,15,"(3, 5)",1000000,16,0,0.001007299999400857
+3,AI immediate win,2,minimax,2,15,"(3, 5)",1000000,226,0,0.017771300000276824
+3,AI immediate win,2,alphabeta,2,15,"(3, 5)",1000000,30,14,0.004677200000514858
+3,AI immediate win,4,minimax,2,15,"(3, 5)",1000000,47686,0,3.8825307000006433
+3,AI immediate win,4,alphabeta,2,15,"(3, 5)",1000000,450,224,0.08805389999997715
+4,Human immediate threat,1,minimax,2,15,"(5, 2)",3103,16,0,0.0010987000005115988
+4,Human immediate threat,1,alphabeta,2,15,"(5, 2)",3103,16,0,0.0011498000003484776
+4,Human immediate threat,2,minimax,2,15,"(3, 6)",-6678,241,0,0.01853720000053727
+4,Human immediate threat,2,alphabeta,2,15,"(3, 6)",-6678,45,14,0.007883300000685267
+4,Human immediate threat,4,minimax,2,15,"(3, 6)",-1000000,50101,0,4.1442363999994996
+4,Human immediate threat,4,alphabeta,2,15,"(3, 6)",-1000000,313,42,0.036439900000004855
+5,Both sides attacking,1,minimax,2,15,"(4, 6)",4475,16,0,0.0016003999999156804
+5,Both sides attacking,1,alphabeta,2,15,"(4, 6)",4475,16,0,0.0016598000001977198
+5,Both sides attacking,2,minimax,2,15,"(4, 6)",-1633,241,0,0.03186860000005254
+5,Both sides attacking,2,alphabeta,2,15,"(4, 6)",-1633,46,14,0.01083180000023276
+5,Both sides attacking,4,minimax,2,15,"(4, 6)",1000000,52981,0,6.186685899999247
+5,Both sides attacking,4,alphabeta,2,15,"(4, 6)",1000000,507,251,0.11110119999921153
+6,Dense branching state,1,minimax,2,15,"(4, 5)",405,16,0,0.0018077999993693084
+6,Dense branching state,1,alphabeta,2,15,"(4, 5)",405,16,0,0.0017821000001276843
+6,Dense branching state,2,minimax,2,15,"(4, 5)",-5591,241,0,0.04263639999953739
+6,Dense branching state,2,alphabeta,2,15,"(4, 5)",-5591,77,12,0.014428200000111246
+6,Dense branching state,4,minimax,2,15,"(6, 6)",-1755,53191,0,6.7816587999996045
+6,Dense branching state,4,alphabeta,2,15,"(6, 6)",-1755,910,286,0.17628340000010212
