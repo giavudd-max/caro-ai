@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="vi">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#07132b">
+<title>Chạm QR mở quà 20/10</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+body{min-height:100dvh;display:grid;place-items:center;padding:20px;color:#edfcff;background:radial-gradient(circle at 50% -10%,#244b72 0%,#0b1b38 45%,#030913 100%)}
+main{text-align:center;max-width:470px;width:100%;padding:27px 21px 30px;background:#102541;border:1px solid #b4efff52;border-radius:27px;box-shadow:0 20px 55px #0006}
+h1{font-size:clamp(24px,6vw,34px);margin:0 0 12px}
+p{color:#d3e7f0;line-height:1.6;font-size:15px;margin:0 auto 18px}
+.qr{display:block;width:min(340px,100%);background:#fff;padding:17px;border-radius:17px;margin:0 auto 20px}
+canvas{display:block;width:100%;height:auto;aspect-ratio:1;image-rendering:pixelated}
+.open{display:block;text-decoration:none;background:#92f3e3;color:#072a3a;border-radius:13px;padding:15px;margin:0 auto;width:min(340px,100%);font-weight:800}
+a:focus-visible{outline:3px solid #ffea91;outline-offset:5px}
+small{display:block;margin:20px auto 0;font-size:12px;color:#bdd0df;line-height:1.6}
+</style>
+</head>
+<body>
+<main>
+<h1>💌 Một món quà 20/10</h1>
+<p>Chạm trực tiếp vào mã QR hoặc nút bên dưới để mở trang quà tặng. Không cần bật camera.</p>
+<a class="qr" href="https://giavudd-max.github.io/caro-ai/qua-tang-20-10/" aria-label="Chạm QR mở trang quà tặng"><canvas id="qr" width="49" height="49" aria-label="Mã QR mở quà tặng"></canvas></a>
+<a class="open" href="https://giavudd-max.github.io/caro-ai/qua-tang-20-10/">🎁 Mở món quà ngay</a>
+<small>QR tĩnh không đặt hạn dùng. Địa chỉ hoạt động khi GitHub Pages và repository còn được duy trì.</small>
+</main>
+<script>
+(()=>{const w=49,s="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP7zy02/gEF+LLpQQC6649ZroBdOPTZl0Aun1py66AQU1wjhBAP6qqqq/gABiy5hAAA64aPEc4B+tZdn9cACu7qutAAcBSP3erAH+91R1GgGSKhCi3wCvPFwaTAAyaAuIEkA+lPN/FKAcB91JpzAMd2WJyvABK8+Y82gAbjnYhkgBya7Kn9sA/k3QUqYALPiUdAQAL6Cak0CAEJvXBW+wAL0MNQoAAawL3ExgA0pys9dcAXFH+PZ/AKsp16D9AFi88PQ2QCSUNCE+oAAU5QBRMA/mkFu6wAQRc5iMaALrmbXL+AF1hsJCrQC6s7NyfQBBAF4QRIA/l/Q/T4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",v=atob(s),c=document.getElementById('qr'),x=c.getContext('2d');x.fillStyle='#ffffff';x.fillRect(0,0,w,w);x.fillStyle='#193d6b';for(let i=0;i<w*w;i++){if((v.charCodeAt(i>>3)>>(7-(i&7)))&1)x.fillRect(i%w,Math.floor(i/w),1,1)}})();
+</script>
+</body></html>
